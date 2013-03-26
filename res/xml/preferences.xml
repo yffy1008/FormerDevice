@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="服务器连接设置" >
+        <EditTextPreference
+            android:summary="设置主机IP地址"
+            android:title="主机设置" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="餐厅信息设置" >
+        <SwitchPreference
+            android:summary="为自助餐厅设计"
+            android:title="补齐叫号" />
+
+        <EditTextPreference
+            android:defaultValue="感谢您的光临！"
+            android:dialogTitle="自定义文本内容"
+            android:key="diy_text"
+            android:summary="自定义文本是为了能在小票上显示一些温馨提示或者祝福语，比如：感谢您的光临！"
+            android:title="自定义文本，将打印在小票上" />
+        <EditTextPreference
+            android:defaultValue="2"
+            android:key="wait_time"
+            android:summary="等待时间：是自动设定等待的时间，比如设2，那么就默认为一个号等待的时间为2分钟。顾客前面排了几位，那么顾客大概需要等待的时间为2*几位的时间。默认为两分钟"
+            android:title="等待时长" />
+        <EditTextPreference
+            android:key="company_name"
+            android:summary="设定任何一个名称，那么小票上就会显示某某公司感谢您的光临。例：框里的字是“丁丁洋餐饮有限公司”，那么小票上就会显示“丁丁洋餐饮有限公司感谢您的光临”。"
+            android:title="单位名称" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="分组设置" >
+        <Preference
+            android:summary="A组 我输入3  B组我输入5 C组我输入8  那A组1-3 人B组3-5人 C组5-8人 D组是8人以上的"
+            android:title="说明" />
+
+        <EditTextPreference
+            android:defaultValue="2"
+            android:dialogTitle="A组最大人数"
+            android:key="group_a_text"
+            android:summary="请输入A组最大人数"
+            android:title="A组" />
+        <EditTextPreference
+            android:defaultValue="4"
+            android:dialogTitle="B组最大人数"
+            android:key="group_b_text"
+            android:summary="请输入A组最大人数"
+            android:title="B组" />
+        <EditTextPreference
+            android:defaultValue="6"
+            android:dialogTitle="C组最大人数"
+            android:key="group_c_text"
+            android:summary="请输入A组最大人数"
+            android:title="C组" />
+        <EditTextPreference
+            android:defaultValue="8"
+            android:dialogTitle="D组最大人数"
+            android:key="group_d_text"
+            android:summary="请输入A组最大人数"
+            android:title="D组" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
