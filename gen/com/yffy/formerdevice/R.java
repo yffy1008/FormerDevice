@@ -26,22 +26,23 @@ public final class R {
         public static final int textview_border=0x7f020002;
     }
     public static final class id {
-        public static final int button_paidui_send=0x7f090004;
+        public static final int button_paidui_send=0x7f090005;
         public static final int called_list=0x7f090000;
-        public static final int cusotmer_id=0x7f090005;
+        public static final int cusotmer_id=0x7f090006;
+        public static final int edittext_customer_phone=0x7f090004;
         public static final int edittext_paidui_count=0x7f090003;
-        public static final int listview_a=0x7f090009;
-        public static final int listview_b=0x7f09000a;
-        public static final int listview_c=0x7f09000b;
-        public static final int listview_d=0x7f09000c;
+        public static final int listview_a=0x7f09000a;
+        public static final int listview_b=0x7f09000b;
+        public static final int listview_c=0x7f09000c;
+        public static final int listview_d=0x7f09000d;
         public static final int progress=0x7f090002;
-        public static final int row_text_count=0x7f090008;
-        public static final int row_text_name=0x7f090007;
-        public static final int settings=0x7f09000e;
-        public static final int show_list=0x7f09000f;
-        public static final int table_id=0x7f090006;
+        public static final int row_text_count=0x7f090009;
+        public static final int row_text_name=0x7f090008;
+        public static final int settings=0x7f09000f;
+        public static final int show_list=0x7f090010;
+        public static final int table_id=0x7f090007;
         public static final int textview_paidui_info=0x7f090001;
-        public static final int title_text=0x7f09000d;
+        public static final int title_text=0x7f09000e;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

@@ -75,5 +75,15 @@ public final class Params {
 		public static final String TABLE_ID = "TableID";
 		public static final String TABLE_MAX_NUMBER = "MaxNumber";
 	}
+	public static final class Sqlist{
+		public static final String DATABASE_NAME="LinkedDB";
+		public static final int DATABASE_VERSION=1;
+		public static final String TABLE_NAME="linktohost";
+		public static final String PHONE="phonenumber";
+		public static final String CUSTOMER_PHONE="customer_phone";
+		public static  final String CUSTOMER_ID="customerId";
+		public static final String CUSTOMER_COUNT="customer_count";
+		
+	}
 	
 }
